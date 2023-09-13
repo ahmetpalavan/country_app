@@ -1,38 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Country App
 
-## Getting Started
+## Açıklama
 
-First, run the development server:
+Country App, dünya üzerindeki ülkeler hakkında temel bilgileri gösteren bir Next.js web uygulamasıdır. Bu uygulama sayesinde, farklı ülkelerin bayrakları, nüfusu, para birimi ve diğer önemli detayları hakkında bilgi sahibi olabilirsiniz.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Özellikler
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Ülkelerin bayrakları
+- Başkentleri
+- Resmi dilleri
+- Para birimi
+- Ve daha fazlası...
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Kullanılan Teknolojiler
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Next.js
+- Apollo Client
+- Radix UI
+- Tailwind CSS
+- TypeScript
+- GraphQL
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Bağımlılıklar
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- next-themes
+- clsx
+- react-loading
+- autoprefixer
+- postcss
+- ve diğerleri...
 
-## Learn More
+## Kurulum
 
-To learn more about Next.js, take a look at the following resources:
+1. Projeyi klonlayın:
+    ```bash
+    git clone https://github.com/ahmetpalavan/country_app.git
+    ```
+    
+2. Proje klasörüne gidin:
+    ```bash
+    cd country_app
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Gerekli paketleri yükleyin:
+    ```bash
+    npm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Geliştirme sunucusunu başlatın:
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+## Katkıda Bulunanlar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Bu projeyi oluşturan kişi [Ahmet Palavan](https://github.com/ahmetpalavan).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## İletişim ve Destek
+
+Soru ve önerileriniz için lütfen [issues](https://github.com/ahmetpalavan/country_app/issues) kısmını kullanın ya da ahmetpalavan@email.com ile iletişime geçin.
